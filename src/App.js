@@ -1,10 +1,11 @@
+import React from "react";
+import Navigation from "./navigations/Navigation";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-red-400'>
-        hu
-      </h1>
-    </div>
+    <>
+      <Navigation />
+    </>
   );
 }
 
